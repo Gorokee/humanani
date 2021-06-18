@@ -1,0 +1,8 @@
+1 source front
+2 front back
+3 back left
+4 left right
+5 right top
+6 top bottom
+7 bottom bottom
+

@@ -7,16 +7,6 @@
 [[Video](https://www.youtube.com/watch?v=x7H0kKWzRFU)]
 
 
-## Table of Contents
-  * [License](#license)
-  * [Description](#description)
-    * [Dependencies](#dependencies)
-    * [Preparing the data](#preparing-the-data)
-    * [Demo](#demo)
-    * [Inference](#inference)
-  * [Citation](#citation)
-  * [Contact](#contact)
-
 
 ## License
 
@@ -39,6 +29,8 @@ To install the necessary dependencies run the following command:
     pip install -r requirements.txt
 ```
 The code has been tested with two configurations: a) with Python 3.7, CUDA 10.1.
+
+## Demo 
 
 ### Step1: Download Pretrained model
 
