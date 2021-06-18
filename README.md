@@ -32,7 +32,7 @@ checkpoint
 
 You will convert the single view body fitting results and fashion segmentation result into the format we use.
 You will run matlab_code/convert_data.m where this requires the fashion segmentation results and single view 3D body model body fitting result.
-For segmentation, we use [fashion segmentation method](https://github.com/Engineering-Course/CIHP_PGN), and for body model fitting, we use [SMPL fitting method](https://github.com/nkolot/SPIN).
+For segmentation, we use [fashion segmentation method](https://github.com/Engineering-Course/CIHP_PGN), and for body model fitting, we use [SMPL fitting method](https://github.com/nkolot/SPIN),
 where we save the vertices and camera translation. Please refer to the same data. 
 
 ### Step3: Complete UV map generation
