@@ -27,7 +27,7 @@ To install the necessary dependencies run the following command:
 ```shell
     pip install -r requirements.txt
 ```
-The code has been tested with two configurations: a) with Python 3.7, CUDA 10.1.
+The code has been tested with Python 3.7, CUDA 10.1.
 
 ## Demo 
 
@@ -44,8 +44,8 @@ checkpoint
 ### Step2: Input data processing
 
 You will convert the single view body fitting results and fashion segmentation result into the format we use.
-You will run matlab_code/convert_data.m where this requires the fashion segmentation results and single view SMPL body fitting result.
-For segmentation, we use [this](https://github.com/Engineering-Course/CIHP_PGN), and for SMPL fitting we use [this] (https://github.com/nkolot/SPIN).
+You will run matlab_code/convert_data.m where this requires the fashion segmentation results and single view 3D body model body fitting result.
+For segmentation, we use [fashion segmentation method](https://github.com/Engineering-Course/CIHP_PGN), and for body model fitting we use [SMPL fitting method] (https://github.com/nkolot/SPIN).
 where we save the vertices and camera translation. Please refer to the same data. 
 
 ### Step3: Complete UV map generation
@@ -54,7 +54,7 @@ To obtain a complete unified UV texture and garment labels from a single image, 
 ```shell
    python UV_modeling.py
 ```
-This will generate the complete UV maps and the intermediate results in the UV_model folder.
+This will generate the complete UV maps and the intermediate results in the UV_model folder. 
 
 ### Step4: Inference
 
