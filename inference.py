@@ -86,7 +86,7 @@ def getCombinedDP(dptex):
 
 
 
-refer_path= "F:/MPI_project/test_set"
+refer_path= "."
 
 
 save_result="{}/output/".format(refer_path)

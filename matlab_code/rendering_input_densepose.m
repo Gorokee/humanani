@@ -43,7 +43,7 @@ vis_res=init_pred.pred_vertices;
     zz=reshape(zz,3,[]);
     
 
-    cc=load('js_smpl_densepose_info.mat');
+    cc=load([work_path '/util/smpl_densepose_info.mat']);
     id=cc.texture_info(:,1);
     color=cc.densepose;
 

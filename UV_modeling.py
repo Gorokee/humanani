@@ -86,8 +86,7 @@ def getCombinedDP(dptex):
 
 
 
-refer_path= "F:/MPI_project/test_set"
-
+refer_path="."
 
 save_uvt="{}/UV_model/UV_map_texture/".format(refer_path)
 if os.path.isdir(save_uvt) == False:
