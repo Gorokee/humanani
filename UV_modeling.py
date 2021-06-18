@@ -88,6 +88,13 @@ def getCombinedDP(dptex):
 
 refer_path="."
 
+
+save_fold="{}/UV_model/".format(refer_path)
+if os.path.isdir(save_fold) == False:
+   os.mkdir(save_fold)
+
+
+
 save_uvt="{}/UV_model/UV_map_texture/".format(refer_path)
 if os.path.isdir(save_uvt) == False:
    os.mkdir(save_uvt)
