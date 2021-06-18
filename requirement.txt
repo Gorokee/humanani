@@ -1,3 +1,0 @@
-note that,
-
-various factors can propogates the error such as body fitting error, foreground segmentation, and so on..
