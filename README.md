@@ -1,6 +1,5 @@
 ## Pose-Guided Human Animation from a Single Image in the Wild 
 
-[![report](https://arxiv.org/pdf/2012.03796.pdf)
 
 [[Project Page](http://gvv.mpi-inf.mpg.de/projects/PoseGuidedHumanAnimation/)] 
 [[Paper](https://arxiv.org/pdf/2012.03796.pdf)]
