@@ -1,4 +1,4 @@
-## ExPose: Monocular Expressive Body Regression through Body-Driven Attention
+## Pose-Guided Human Animation from a Single Image in the Wild 
 
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)
 
