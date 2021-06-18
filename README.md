@@ -58,7 +58,7 @@ This will generate the synthesized image in the output folder.
 If you find this Model & Software useful in your research we would kindly ask you to cite:
 
 ```bibtex
-@inproceedings{yoon2020humanani,
+@inproceedings{yoon2021humanani,
   title={Pose-Guided Human Animation from a Single Image in the Wild},
   author={Jae Shin Yoon, Lingjie Liu, Vladislav Golyanik, Kripasindhu Sarkar, Hyun Soo Park, and Christian Theobalt},
   booktitle={CVPR},
